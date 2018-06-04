@@ -38,7 +38,7 @@
 
 * **Isolated** computing resources from a **shared pool**
 * Self-service
-* End users run their own software on the **platform**
+* Users run their own software on the **platform**
 
 ---
 
@@ -46,7 +46,7 @@
 
 * <!-- .element: class="fragment" data-fragment-index="0" --> Infrastructure-as-a-service (Pouta) - central concept: **Virtual machines**
 * <!-- .element: class="fragment" data-fragment-index="1" --> Platform-as-a-service (Rahti) - central concept: **Applications**
-* <!-- .element: class="fragment" data-fragment-index="2" --> Same end goal: **enable end users to run their own software in the cloud**
+* <!-- .element: class="fragment" data-fragment-index="2" --> Same end goal: **enable users to run their own software in the cloud**
 
 ---
 
@@ -102,11 +102,42 @@
 
 ---
 
-## Why Kubernetes?
+# Why Kubernetes?
+
+<!-- .slide: data-background="img/topic_background.png" -->
+
+---
+
+## Standard
 
 * The de facto standard for container orchestration
-* Hosted in a foundation (CNCF), backing from tech giants - e.g. Google, Red Hat, Microsoft, Cisco
 * Targeted by software distributors
+* Can hire people with Kubernetes skills
+
+---
+
+## Wide support
+
+* Open source, hosted by a foundation (CNCF)
+* Backing from tech giants, including:
+   * Google
+   * Red Hat
+   * Microsoft
+   * Cisco
+   * Oracle
+   * AWS
+* **$4 billion** in investments
+
+---
+
+## Large ecosystem
+
+* <a href="http://l.cncf.io" data-preview-link>CNCF Cloud Native Landscape (https://l.cncf.io)</a>
+* <a href="https://kubernetes.io/case-studies/" data-preview-link>Kubernetes Case Studies</a>
+---
+
+## Supported by all major cloud providers
+
 * "The K stands for Kubernetes" - Kubernetes on the big three cloud platforms
   * Amazon EKS
   * Microsoft Azure AKS
