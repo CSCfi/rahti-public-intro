@@ -1,4 +1,4 @@
-# Introduction to Rahti
+# Introduction to the Rahti container cloud
 
 <!-- .slide: data-background="img/topic_background.png" -->
 
