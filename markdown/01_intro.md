@@ -128,7 +128,7 @@ Note:
 
 ---
 
-# Demo
+# Demo time
 
 <!-- .slide: data-background="img/topic_background.png" -->
 
