@@ -4,13 +4,35 @@
 
 ---
 
-## What is Rahti?
+<!-- .slide: data-background="img/old-time-cargo.jpg" -->
 
-* Container cloud platform based on **OpenShift** - Red Hat's distribution of **Kubernetes**
-* Run applications packaged as **containers**
-* Status
-  * Currently in **closed beta**
-  * Estimated to be in **production in 2019** - open beta some time before that
+---
+
+<!-- .slide: data-background="img/old-time-cargo-2.jpg" -->
+
+---
+
+<!-- .slide: data-background="img/modern-cargo.jpg" -->
+
+---
+
+<!-- .slide: data-background="img/train-cargo.jpg" -->
+
+Note:
+
+* Image source: https://commons.wikimedia.org/wiki/File:CN_2416_GE_C40-8M.jpg
+* Author: Nate Beal
+* License: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/deed.en)
+
+---
+
+<!-- .slide: data-background="img/truck-cargo.jpg" -->
+
+Note:
+
+* Image source: https://commons.wikimedia.org/wiki/File:Intermodal_Transport_by_Truck.JPG
+* Author: Joseph Madden (Joedamadman)
+* License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/deed.en)
 
 ---
 
@@ -19,6 +41,16 @@
 * Standardize software deployment
 * Build once, run anywhere
 * Everything needed to run an app in a single package
+
+---
+
+## What is Rahti?
+
+* Container cloud platform based on **OpenShift** - Red Hat's distribution of **Kubernetes**
+* Run applications packaged as **containers**
+* Status
+  * Currently in **closed beta**
+  * Estimated to be in **production in 2019** - open beta some time before that
 
 ---
 
