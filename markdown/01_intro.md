@@ -50,7 +50,7 @@ Note:
 * Run applications packaged as **containers**
 * Status
   * Currently in **closed beta**
-  * Estimated to be in **production in 2019** - open beta some time before that
+  * **Production in 2019** - open beta some time before that
 
 ---
 
