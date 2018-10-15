@@ -1,4 +1,4 @@
-# Introduction to the Rahti container cloud
+# Introduction to Rahti
 
 <!-- .slide: data-background="img/topic_background.png" -->
 
@@ -36,21 +36,28 @@ Note:
 
 ---
 
-## Containers
-
-* Standardize software deployment
-* Build once, run anywhere
-* Everything needed to run an app in a single package
-
----
-
 ## What is Rahti?
 
+* A new service from CSC
 * Container cloud platform based on **OpenShift** - Red Hat's distribution of **Kubernetes**
 * Run applications packaged as **containers**
 * Status
   * Currently in **closed beta**
   * **Production in 2019** - open beta some time before that
+
+---
+
+# Rahti demo
+
+<!-- .slide: data-background="img/topic_background.png" -->
+
+---
+
+## Containers
+
+* Standardize software deployment
+* Build once, run anywhere
+* Everything needed to run an app in a single package
 
 ---
 
@@ -82,6 +89,21 @@ Note:
 
 ---
 
+## Cloud platform features
+
+|                    | Pouta | Rahti |
+|--------------------|:-----:|:-----:|
+| Self-service       | ✓     | ✓     |
+| REST API           | ✓     | ✓     |
+| Persistent storage | ✓     | ✓     |
+| Network isolation  | ✓     | ✓     |
+| Load balancing     | DIY   | ✓     |
+| TLS                | DIY   | ✓     |
+| Fault tolerance    | DIY   | ✓     |
+| Autoscaling        | DIY   | ✓     |
+
+===
+
 # Simplified workflow example
 
 <!-- .slide: data-background="img/topic_background.png" -->
@@ -111,28 +133,7 @@ Note:
 <!-- .slide: data-transition="none" -->
 ![Container orchestration workflow](img/container_orchestration_stage4.png)
 
----
-
-## Cloud platform features
-
-|                    | Pouta | Rahti |
-|--------------------|:-----:|:-----:|
-| Self-service       | ✓     | ✓     |
-| REST API           | ✓     | ✓     |
-| Persistent storage | ✓     | ✓     |
-| Network isolation  | ✓     | ✓     |
-| Load balancing     | DIY   | ✓     |
-| TLS                | DIY   | ✓     |
-| Fault tolerance    | DIY   | ✓     |
-| Autoscaling        | DIY   | ✓     |
-
----
-
-# Demo time
-
-<!-- .slide: data-background="img/topic_background.png" -->
-
----
+===
 
 # Why Kubernetes?
 
@@ -191,10 +192,17 @@ Note:
 
 ![Spotify](img/spotify_logo.png)
 
+===
+
+# How to start using Rahti?
+
+<!-- .slide: data-background="img/topic_background.png" -->
+
 ---
 
 ## More information
 
 * [The Rahti main page](https://rahti.csc.fi/) for end user documentation
+  * [Instructions for getting access](https://rahti.csc.fi/introduction/access/)
 * [rahti-support@csc.fi](mailto:rahti-support@csc.fi) for support
 * [rahti-team@postit.csc.fi](mailto:rahti-team@postit.csc.fi) to contact the team
