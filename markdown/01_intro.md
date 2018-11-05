@@ -36,6 +36,14 @@ Note:
 
 ---
 
+## Containers
+
+* Standardize software deployment
+* Build once, run anywhere
+* Everything needed to run an app in a single package
+
+---
+
 ## What is Rahti?
 
 * A new service from CSC
@@ -50,14 +58,6 @@ Note:
 # Rahti demo
 
 <!-- .slide: data-background="img/topic_background.png" -->
-
----
-
-## Containers
-
-* Standardize software deployment
-* Build once, run anywhere
-* Everything needed to run an app in a single package
 
 ---
 
