@@ -203,6 +203,8 @@ Note:
 ## More information
 
 * [The Rahti main page](https://rahti.csc.fi/) for end user documentation
+  * Like cPouta and ePouta, you need a CSC computing project to access Rahti
+  * No cost for you when you use Rahti for open research and education
   * [Instructions for getting access](https://rahti.csc.fi/introduction/access/)
 * [rahti-support@csc.fi](mailto:rahti-support@csc.fi) for support
 * [rahti-team@postit.csc.fi](mailto:rahti-team@postit.csc.fi) to contact the team
