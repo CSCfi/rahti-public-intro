@@ -5,39 +5,31 @@ Rahti container cloud platform.
 
 ## Editing these slides
 
-You'll want to preview any changes you make using a local copy of reveal.js.
-Clone the reveal.js repo and this repo on your computer and then make some
-symbolic links in the reveal.js directory:
+You'll want to preview any changes you make using a local copy of reveal.js. You
+can do so by running:
 
 ```bash
-git clone https://github.com/CSCfi/rahti-public-intro.git
-git clone https://github.com/hakimel/reveal.js.git
-ln -s -T rahti-public-intro/html/index.html reveal.js/index.html
-ln -s -T rahti-public-intro/img/ reveal.js/img
-ln -s -T rahti-public-intro/markdown/ reveal.js/markdown
-ln -s -T rahti-public-intro/extra_css/ reveal.js/extra_css
-cd reveal.js
+npm install
+npm run dev
+```
+
+After this, the slides should be available at
+[http://localhost:8000](http://localhost:8000). Symlinks are used in the
+reveal.js directory to point to the slides, so unfortunately autoloading does
+not work. You'll need to refresh your browser view to see changes.
+
+## Test running static site locally
+
+When not in dev mode, the slides will be served by
+[express](https://expressjs.com/). You can start an express server to serve the
+slides like so:
+
+```bash
 npm install
 npm start
 ```
 
-After this, the slides should be available at
-[http://localhost:8000](http://localhost:8000). Whenever you make a change to
-the slides this should automatically show up in your browser.
-
-## Previewing locally with Docker
-
-You can also preview the slides by running the image created by the included
-Dockerfile locally:
-
-```bash
-sudo docker build -t rahti-public-intro:latest .
-sudo docker run -i -t --rm -p 8080:8080 --name rahti-public-intro rahti-public-intro
-```
-
-After this the slides will be visible on
-[http://localhost:8080](http://localhost:8080). Note that to make changes to
-what's shown you have to rebuild the Docker image.
+Note that changes won't be picked up when running this way.
 
 ## Hosting the slides on OpenShift
 

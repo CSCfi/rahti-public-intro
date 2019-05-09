@@ -1,0 +1,28 @@
+{
+  "name": "rahti-public-intro",
+  "version": "1.0.0",
+  "description": "Rahti public intro reveal.js presentation",
+  "main": "index.js",
+  "scripts": {
+    "build": "./build.sh",
+    "dev": "./symlink.sh && (cd node_modules/reveal.js/ && npm install && npm start)",
+    "start": "./build.sh && node index.js",
+    "symlink": "./symlink.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CSCfi/rahti-public-intro.git"
+  },
+  "author": "Risto Laurikainen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CSCfi/rahti-public-intro/issues"
+  },
+  "homepage": "https://github.com/CSCfi/rahti-public-intro#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "reveal.js": "^3.8.0"
+  }
+}

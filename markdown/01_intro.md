@@ -83,9 +83,9 @@ Note:
 
 ## Two types of clouds
 
-* <!-- .element: class="fragment" data-fragment-index="0" --> Infrastructure-as-a-service (Pouta) - central concept: **Virtual machines**
-* <!-- .element: class="fragment" data-fragment-index="1" --> Platform-as-a-service (Rahti) - central concept: **Applications**
-* <!-- .element: class="fragment" data-fragment-index="2" --> Same end goal: **enable users to run their own software in the cloud**
+* <!-- .element: class="fragment" data-fragment-index="0" --> Infrastructure-as-a-service (Pouta) - central concept: Virtual machines
+* <!-- .element: class="fragment" data-fragment-index="1" --> Platform-as-a-service (Rahti) - central concept: Applications
+* <!-- .element: class="fragment" data-fragment-index="2" --> Same end goal: enable users to run their own software in the cloud
 
 ---
 
