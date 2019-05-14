@@ -41,17 +41,30 @@ Note:
 * Standardize software deployment
 * Build once, run anywhere
 * Everything needed to run an app in a single package
+* Enabler for standardized infrastructure
 
 ---
 
 ## What is Rahti?
 
 * A new service from CSC
-* Container cloud platform based on **OpenShift** - Red Hat's distribution of **Kubernetes**
+* Container cloud platform based on **OKD** - Red Hat's open source distribution of **Kubernetes**
+* OKD is the upstream version of **OpenShift**
 * Run applications packaged as **containers**
 * Status
   * Currently in **closed beta**
-  * **Production in 2019** - open beta some time before that
+  * **Production in 2019** - open beta coming soon
+
+---
+
+## Key features
+
+* Run your own apps
+* Autorecovery
+* Source-to-image (S2I)
+* Autoscaling
+* Application catalog
+* Easy default TLS & URL for app
 
 ---
 
@@ -89,22 +102,21 @@ Note:
 
 ---
 
-## Cloud platform features
+## Comparison to other platforms
 
-|                    | Pouta | Rahti |
-|--------------------|:-----:|:-----:|
-| Self-service       | ✓     | ✓     |
-| REST API           | ✓     | ✓     |
-| Persistent storage | ✓     | ✓     |
-| Network isolation  | ✓     | ✓     |
-| Load balancing     | DIY   | ✓     |
-| TLS                | DIY   | ✓     |
-| Fault tolerance    | DIY   | ✓     |
-| Autoscaling        | DIY   | ✓     |
+|                           | VMware          | OpenStack   | OKD / Kubernetes  |
+| ------------------------- | --------------- | ----------- | ----------------- |
+| **Model**                 | pet VMs         | cattle VMs  | cattle containers |
+| **Unit**                  | VM              | VM          | container         |
+| **Avail for single unit** | high            | medium      | low               |
+| **Automatic recovery**    | yes             | DIY         | yes               |
+| **Level of abstraction**  | medium          | low         | high              |
+| **Ease of scaling**       | low             | medium      | trivial           |
+| **Non-Linux workloads**   | yes             | yes         | hard              |
 
 ===
 
-# Simplified workflow example
+# Workflow example
 
 <!-- .slide: data-background="img/topic_background.png" -->
 
@@ -153,13 +165,12 @@ Note:
 
 * Open source, hosted by a foundation (CNCF)
 * Backing from tech giants, including:
-   * Google
-   * Red Hat
-   * Microsoft
-   * Cisco
-   * Oracle
-   * AWS
-* **$4 billion** in investments
+  * Google
+  * Red Hat
+  * Microsoft
+  * Cisco
+  * Oracle
+  * AWS
 
 ---
 
@@ -178,13 +189,7 @@ Note:
 
 ---
 
-### One of the most active open source projects
-
-![TOP 30 open source projects](img/top30-opensource-projects.png)
-
----
-
-## Sites that run on Kubernetes
+## Sites that use Kubernetes
 
 ![New York Times](img/ny_times_logo.png)
 
